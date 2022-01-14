@@ -1,7 +1,7 @@
-name: "YOURNAME"                                # CHANGE HERE 
+name: "Guillaume Rivollier"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "YOURNAME"                             # CHANGE HERE 
+  title: "Guillaume Rivollier"                             # CHANGE HERE 
   type: inverse
   left:
     - text: "Home"
@@ -22,7 +22,7 @@ navbar:
       href: mailto:YOUREMAIL                    # CHANGE HERE 
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/YOURGITHUB       # CHANGE HERE 
+      href: https://github.com/RivollierG       # CHANGE HERE 
 output:
   html_document:
     theme: cosmo
