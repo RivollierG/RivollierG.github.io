@@ -4,6 +4,16 @@ title: "CV"
 
 <a href="CV.pdf#" class="download" title="Download CV as PDF">Download CV</a>			
 
-## Header
+## Version of my CV
 
-Say more about your CV here.
+
+
+
+
+The current downloadable CV is in French ans not really up to date.
+
+The new up to date CV will hopefully arrive soon.
+
+English version is not planned (yet).
+
+Fell free to reach me if you have any questions.
