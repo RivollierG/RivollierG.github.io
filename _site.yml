@@ -13,6 +13,13 @@ navbar:
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
+    - text: 'Portfolio'
+      icon: fa-graduation-cap
+      menu:
+      - text: Trees in Grenoble
+        icon: fa-tree
+        desc : Some analyses from Grenoble's trees database
+        href: tree.html
 
   right:
     - text: ""

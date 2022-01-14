@@ -1,0 +1,6 @@
+---
+title: "Trees in Grenbole"
+---
+
+
+During my formation in Data science at the campus numérique in the Alps, we had the opportunity to work on the trees' database of our wonderful city.
