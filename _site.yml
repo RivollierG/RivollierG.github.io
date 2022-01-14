@@ -15,8 +15,7 @@ navbar:
       menu:
       - text: Trees in Grenoble
         icon: fa-tree
-        desc : Some analyses from Grenoble's trees database
-        href: tree.html
+        href: othello.html
       - text: Othello
         icon: fa-circle
         href: tree.html
