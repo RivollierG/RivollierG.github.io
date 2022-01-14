@@ -19,7 +19,7 @@ navbar:
         href: tree.html
       - text: Othello
         icon: fa-circle
-        href: tree.html
+        href: othello.html
   right:
     - text: ""
       icon: fa-envelope-o
