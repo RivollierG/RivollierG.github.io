@@ -4,3 +4,4 @@ title: "Guillaume Rivollier's website"
 
 Welcome on my website still in construction
 
+![Work in progress](WIP-logo.png)

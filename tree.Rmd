@@ -3,4 +3,5 @@ title: "Trees in Grenbole"
 ---
 
 
-During my formation in Data science at the campus numérique in the Alps, we had the opportunity to work on the trees' database of our wonderful city.
+During my formation in Data science at the [campus numérique in the Alps](https://le-campus-numerique.fr/), we had the opportunity to work on the trees' [database](https://data.metropolegrenoble.fr/ckan/dataset/les-arbres-de-grenoble) of our wonderful city.
+
