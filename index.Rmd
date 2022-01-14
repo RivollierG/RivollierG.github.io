@@ -7,4 +7,4 @@ Welcome on my website still in construction
 ![](WIP-logo.png)
 
 
-The code behind this GitHub can be found on [GitHub](https://github.com/RivollierG/RivollierG.github.io), and it's built from a [template](privefl/rmarkdown-website-template) by [Florian Privé](https://privefl.github.io/)
+The code behind this GitHub page can be found on [GitHub](https://github.com/RivollierG/RivollierG.github.io), and it's built from a [template](privefl/rmarkdown-website-template) by [Florian Privé](https://privefl.github.io/)

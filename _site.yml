@@ -17,7 +17,9 @@ navbar:
         icon: fa-tree
         desc : Some analyses from Grenoble's trees database
         href: tree.html
-
+      - text: Othello
+        icon: fa-circle
+        href: tree.html
   right:
     - text: ""
       icon: fa-envelope-o

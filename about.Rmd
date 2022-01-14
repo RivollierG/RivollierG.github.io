@@ -2,7 +2,7 @@
 title: "About me"
 ---
 
-## Don't forget to put a title here
+
 
 Hello,
 
@@ -15,4 +15,4 @@ This small webpages are still in construction.
 Therefore don't worry if you are not able to find lot of info about me.
 
 
-You can find me on [Twitter](https://twitter.com/g_rivollierl) and [LinkIn](https://www.linkedin.com/in/guillaume-rivollier/).
+You can find me on [Twitter](https://twitter.com/g_rivollierl) and [LinkedIn](https://www.linkedin.com/in/guillaume-rivollier/).
