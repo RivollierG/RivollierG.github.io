@@ -15,12 +15,18 @@ navbar:
       href: cv.html
 
   right:
-    - text: "Contact me"
+    - text: ""
       icon: fa-envelope-o
       href: mailto:guillaume.rivollier@le-campus-numerique.fr                   # CHANGE HERE 
-    - text: "GitHub"
+    - text: ""
       icon: fa-github
       href: https://github.com/RivollierG       # CHANGE HERE 
+    - text: ""
+      icon: fa-linkedin
+      href: https://www.linkedin.com/in/guillaume-rivollier/
+    - text: ""
+      icon: fa-twitter
+      href: https://twitter.com/g_rivollier
 output:
   html_document:
     theme: cosmo

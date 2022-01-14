@@ -1,5 +1,5 @@
 ---
-title: Guillaume Rivollier's website
+title: "Guillaume Rivollier's website"
 ---
 
 Welcome on my website still in construction
