@@ -4,9 +4,6 @@ navbar:
   title: "Guillaume Rivollier"                             # CHANGE HERE 
   type: inverse
   left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
     - text: "About"
       icon: fa-user 
       href: about.html

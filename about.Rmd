@@ -16,5 +16,3 @@ Therefore don't worry if you are not able to find lot of info about me.
 
 
 You can find me on [Twitter](https://twitter.com/g_rivollierl) and [LinkIn](https://www.linkedin.com/in/guillaume-rivollier/).
-
-The code behind this GitHub can be found on [GitHub](https://github.com/RivollierG/RivollierG.github.io), and it's built from a [template](privefl/rmarkdown-website-template) by [Florian Privé](https://privefl.github.io/)
