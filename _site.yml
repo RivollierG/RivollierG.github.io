@@ -13,13 +13,11 @@ navbar:
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
-    - text: "Blog"
-      icon: fa-rss
-      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
+
   right:
     - text: "Contact me"
       icon: fa-envelope-o
-      href: mailto:YOUREMAIL                    # CHANGE HERE 
+      href: mailto:guillaume.rivollier@le-campus-numerique.fr                   # CHANGE HERE 
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/RivollierG       # CHANGE HERE 

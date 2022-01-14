@@ -5,8 +5,13 @@ title: "About me"
 ## Don't forget to put a title here
 
 Hello,
+
 I'm Guillaume Rivollier.
+
 Welcome on my page.
+
 This small webpages are still in construction.
-Therefore don't worry if you are not able to find lot of infos about me.
+
+Therefore don't worry if you are not able to find lot of info about me.
+
 
