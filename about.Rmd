@@ -2,7 +2,7 @@
 title: "About me"
 ---
 
-## Don't forgetto put a title here
+## Don't forget to put a title here
 
 Hello,
 I'm Guillaume Rivollier.
