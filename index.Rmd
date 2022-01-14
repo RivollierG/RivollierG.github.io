@@ -1,5 +1,6 @@
 ---
-title: "Welcome to my website!"
+title: Guillaume Rivollier's website"
 ---
 
-You're up and running!
+Welcome on my website still in construction
+

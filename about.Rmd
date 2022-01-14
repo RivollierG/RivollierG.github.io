@@ -2,6 +2,11 @@
 title: "About me"
 ---
 
-## Header
+## Don't forgetto put a title here
 
-Say more about you here.
+Hello,
+I'm Guillaume Rivollier.
+Welcome on my page.
+This small webpages are still in construction.
+Therefore don't worry if you are not able to find lot of infos about me.
+
