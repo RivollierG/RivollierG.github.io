@@ -18,6 +18,6 @@ n = 50
 #n = int(input("nb lignes?"))
 n
 for i in range(n):
-  print("autoscrolling automatic?", i)
+  print("scrolling automatic?", i)
 ```
 

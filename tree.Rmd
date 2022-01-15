@@ -1,8 +1,70 @@
 ---
-title: "Trees in Grenbole"
+title: Trees in Grenbole
 ---
 
 
 During my formation in Data science at the [campus numérique in the Alps](https://le-campus-numerique.fr/), we had the opportunity to work on the trees' [database](https://data.metropolegrenoble.fr/ckan/dataset/les-arbres-de-grenoble) of our wonderful city.
 
 ![](WIP-logo.png)
+
+```{python}
+# import des packages nécessaires
+import pandas as pd
+import folium
+
+#import des données
+
+df = pd.read_csv('tree/Stats_by_tree.csv', index_col = 0)
+df.head(5)
+```
+
+```{python}
+    # Supposons que la proximité se mesure avec la distance moyenne aux autres arbres
+prox = df['moyenne'].min()
+print('L\'arbre le moins isolé est en moyenne à', round(prox), 'mètres des autres arbres.')
+
+# Supposons que la proximité se mesure avec la distance maximale à un autre arbre
+prox2 = df['maximum'].min()
+print('L\'arbre le moins isolé est au maximum à', round(prox2), 'mètres des autres arbres.')
+```
+
+```{python}
+     # Coordonnées des deux arbres les plus éloignés l'un de l'autre 
+max1 = df['maximum'].nlargest(2).index[0]
+max2 = df['maximum'].nlargest(2).index[1]
+
+     # Beaucoup d'arbres on un voisin à 1 mètres d'eux, on ne va donc pas récupérer leurs coordonnées  ,
+
+     # Coordonnées de l'arbre le plus isolé  ,
+iso_c = df['minimum'].idxmax()
+
+     # Coordonnées des arbres les moins isolés selon les deux approches  ,
+prox_c = df['moyenne'].idxmin() 
+prox2_c = df['maximum'].idxmin() 
+```
+
+Sur la map ci-dessous : 
+
+* les arbres sont représentés en <font color='green'> vert </font>
+* les deux arbres les plus éloignés sont en <font color='red'>rouge</font>
+* l'arbre le plus isolé est en noir
+* les arbres les moins isolés sont en <font color='blue'>bleu</font> et en <font color='purple'>violet </font>(bleu en se basant sur la distance moyenne, violet en se basant sur la distance maximale)
+
+
+```{python, results='hide'}
+df['coord'] = df.index
+map_gre = folium.Map(location = [45.18, 5.72],zoom_start= 12)
+for i in range(len(df)) :
+  folium.CircleMarker(eval(df.coord[i]),radius = 1,color = 'green').add_to(map_gre)
+    
+folium.CircleMarker(eval(max1),radius = 3,color = 'red').add_to(map_gre)    
+folium.CircleMarker(eval(max2),radius = 3,color = 'red').add_to(map_gre)  
+folium.CircleMarker(eval(iso_c),radius = 3,color = 'black').add_to(map_gre)  
+folium.CircleMarker(eval(prox_c),radius = 3,color = 'blue').add_to(map_gre) 
+folium.CircleMarker(eval(prox2_c),radius = 3,color = 'purple').add_to(map_gre) 
+
+```
+```{python}
+map_gre
+```
+
