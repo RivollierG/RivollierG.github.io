@@ -1,4 +1,5 @@
 name: "Guillaume Rivollier"                                # CHANGE HERE 
+favicon: favicon/favicon.gif
 output_dir: "."
 navbar:
   title: "Guillaume Rivollier"                             # CHANGE HERE 
@@ -37,3 +38,5 @@ output:
   html_document:
     theme: cosmo
     highlight: textmate
+    includes:
+      in_hearder: favicon/favicon.html
