@@ -37,6 +37,15 @@
 <body>
     <script>
         $('body').terminal({
+          
+            start: function () {
+
+     
+              <?PHP
+              echo shell_exec("../othello.main.py");
+              ?>
+
+            }
             iam: function (name) {
                 this.echo('Hello, ' + name +
                     '. Welcome to GeeksForGeeks');
@@ -50,9 +59,7 @@
                 + 'founder to know the founder');
             },
         }, {
-            greetings: 'GeeksForGeeks - A place to'
-                + ' learn DS, Algo and Computer '
-                + 'Science for free'
+            greetings: 'Welcome in the terminal, type start() to play Othello'
         });
     </script>
 </body>
