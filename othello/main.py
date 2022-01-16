@@ -1,8 +1,11 @@
 from utils.board import Board
 from utils.player import Player
 from utils.ia import Ia
-
-# Initialisation
+from django import template
+    
+register = template.Library()  
+    
+@register.simple_tag
 def othello(j1 = "Player", j2= "IA", lv = 4):
     #joueur1 = Player("noir")
     if j1 == "Player":

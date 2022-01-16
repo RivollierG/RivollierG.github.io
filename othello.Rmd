@@ -6,20 +6,5 @@ title: "Othello game"
 ![](WIP-logo.png)
 
 ```{python, echo = FALSE}
-from random import random
-a = random()
 
-print('Of course it\'s WIP', a)
-
-
-
-print("test Zone")
-n = 50
-#n = int(input("nb lignes?"))
-n
-for i in range(n):
-  print("scrolling automatic?", i)
 ```
-
-
-[Terminal ?](terminal/terminal.html)

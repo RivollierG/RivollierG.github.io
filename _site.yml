@@ -8,6 +8,9 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
+    - text: "Skills"
+      icon: fa-tasks
+      href: skills.html
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
@@ -21,6 +24,9 @@ navbar:
       - text: Othello
         icon: fa-circle
         href: othello.html
+    - text: "Infos"
+      icon: fa-question-circle-o
+      href: infos.html
   right:
     - text: ""
       icon: fa-envelope-o
