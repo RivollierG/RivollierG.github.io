@@ -4,16 +4,10 @@ title: "About me"
 
 
 
-Hello,
-
-I'm Guillaume Rivollier.
-
-Welcome on my page.
-
-This website is still in construction.
-
-Therefore don't worry if you are not able to find lot of info about me.
-
-
+Hello,  
+I'm Guillaume Rivollier.  
+Welcome on my page.  
+This website is still in construction.  
+Therefore don't worry if you are not able to find lot of info about me.  
 You can find me on [Twitter](https://twitter.com/g_rivollierl) and [LinkedIn](https://www.linkedin.com/in/guillaume-rivollier/).
 

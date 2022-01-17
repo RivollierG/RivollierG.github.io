@@ -1,17 +1,25 @@
----
-title: "CV"
----
+   
+##CV
 
-<a href="files/CV.pdf#" class="download" title="Download CV as PDF">Download CV</a>			
+<a href="files/CV.pdf#" class="download" title="Download CV as PDF">Download CV</a>
 
-## Version of my CV
+The current downloadable CV is in French.  
+English version is not planned (yet).  
+Fell free to reach me if you have any questions.  
+  
+  ***
+
+  
 
 
 
+## Publication
+
+Rivollier, G., Quinton, JC., Gonthier, C. et al. Looking with the (computer) mouse: How to unveil problem-solving strategies in matrix reasoning without eye-tracking. Behav Res 53, 1081–1096 (2021). https://doi.org/10.3758/s13428-020-01484-3
+
+Abstract :  </font>
+
+>  <font size="2"> Problem-solving strategies in visual reasoning tasks are often studied based on the analysis of eye movements, which yields high-quality data but is costly and difficult to implement on a large scale. We devised a new graphical user interface for matrix reasoning tasks where the analysis of computer mouse movements makes it possible to investigate item exploration and, in turn, problem-solving strategies. While relying on the same active perception principles underlying eye-tracking (ET) research, this approach has the additional advantages of being user-friendly and easy to implement in real-world testing conditions, and records only voluntary decisions. A pilot study confirmed that embedding items of Raven's Advanced Progressive Matrices (APM) in the interface did not significantly alter its psychometric properties. Experiment 1 indicated that mouse-based exploration indices, when used to assess two major problem-solving strategies in the APM, are related to final performance—as has been found in past ET research. Experiment 2 suggested that constraining some features of the interface favored the adoption of the more efficient solving strategy for some participants. Overall, the findings support the relevance of the present methodology for accessing and manipulating problem-solving strategies.</font>
 
 
-The current downloadable CV is in French.
-
-English version is not planned (yet).
-
-Fell free to reach me if you have any questions.
+<a href="files/Rivollier2021_Article_LookingWithTheComputerMouseHow.pdf#" class="download" title="Download article as PDF">Download article</a>

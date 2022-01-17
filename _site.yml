@@ -22,9 +22,7 @@ navbar:
       - text: Othello
         icon: fa-circle
         href: othello.html
-    - text: "Infos"
-      icon: fa-question-circle-o
-      href: infos.html
+
   right:
     - text: ""
       icon: fa-envelope-o
@@ -38,6 +36,9 @@ navbar:
     - text: ""
       icon: fa-twitter
       href: https://twitter.com/g_rivollier
+    - text: ""
+      icon: fa-question-circle-o
+      href: infos.html
 output:
   html_document:
     theme: cosmo
