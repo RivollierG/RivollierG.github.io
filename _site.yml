@@ -4,10 +4,8 @@ output_dir: "."
 navbar:
   title: "Guillaume Rivollier"                             # CHANGE HERE 
   type: inverse
+  icon: fa-user
   left:
-    - text: "About"
-      icon: fa-user 
-      href: about.html
     - text: "Skills"
       icon: fa-tasks
       href: skills.html

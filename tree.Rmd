@@ -41,14 +41,6 @@ iso_c = df['minimum'].idxmax()
      # Coordonnées des arbres les moins isolés selon les deux approches  ,
 prox_c = df['moyenne'].idxmin() 
 prox2_c = df['maximum'].idxmin() 
-```
-
-Sur la map ci-dessous : 
-
-* les arbres sont représentés en <font color='green'> vert </font>
-* les deux arbres les plus éloignés sont en <font color='red'>rouge</font>
-* l'arbre le plus isolé est en noir
-* les arbres les moins isolés sont en <font color='blue'>bleu</font> et en <font color='purple'>violet </font>(bleu en se basant sur la distance moyenne, violet en se basant sur la distance maximale)
 
 
 ```{python, results='hide'}
@@ -64,6 +56,13 @@ folium.CircleMarker(eval(prox_c),radius = 3,color = 'blue').add_to(map_gre)
 folium.CircleMarker(eval(prox2_c),radius = 3,color = 'purple').add_to(map_gre) 
 
 ```
+
+Sur la map ci-dessous : 
+
+* les arbres sont représentés en <font color='green'> vert </font>
+* les deux arbres les plus éloignés sont en <font color='red'>rouge</font>
+* l'arbre le plus isolé est en noir
+* les arbres les moins isolés sont en <font color='blue'>bleu</font> et en <font color='purple'>violet </font>(bleu en se basant sur la distance moyenne, violet en se basant sur la distance maximale)
 ```{python}
 map_gre
 ```

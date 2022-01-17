@@ -1,11 +1,9 @@
 from utils.board import Board
 from utils.player import Player
 from utils.ia import Ia
-from django import template
-    
-register = template.Library()  
-    
-@register.simple_tag
+
+
+
 def othello(j1 = "Player", j2= "IA", lv = 4):
     #joueur1 = Player("noir")
     if j1 == "Player":
@@ -58,3 +56,6 @@ def othello(j1 = "Player", j2= "IA", lv = 4):
         plateau.maj_board(coup, joueur_actif, joueur_inactif)
         plateau.afficher_board()
     plateau.fin_du_jeu(joueur1, joueur2)
+
+
+othello()

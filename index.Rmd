@@ -1,11 +1,19 @@
 ---
-title: "Guillaume Rivollier's website"
+title: "About me"
 ---
 
-Welcome on my website still in construction
 
 
+Hello,
+
+I'm Guillaume Rivollier.
+
+Welcome on my page.
+
+This website is still in construction.
+
+Therefore don't worry if you are not able to find lot of info about me.
 
 
+You can find me on [Twitter](https://twitter.com/g_rivollierl) and [LinkedIn](https://www.linkedin.com/in/guillaume-rivollier/).
 
-The code behind this GitHub page can be found on [GitHub](https://github.com/RivollierG/RivollierG.github.io), and it's built from a [template](privefl/rmarkdown-website-template) by [Florian Privé](https://privefl.github.io/)
