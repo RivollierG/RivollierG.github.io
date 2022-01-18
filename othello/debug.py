@@ -34,4 +34,3 @@ while plateau.trigger < 2:
     plateau.maj_board(coup, joueur_actif, joueur_inactif)
     plateau.afficher_board()
 plateau.fin_du_jeu(joueur1, joueur2)
-

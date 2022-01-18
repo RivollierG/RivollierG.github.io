@@ -2,7 +2,52 @@
 title: "Skills"
 ---
 
+*Still WIP*
 
+------------------------------------------------------------------------
 
-WIP  
-article
+# Computer Science
+
+------------------------------------------------------------------------
+
+## Programming Languages
+
+> Python
+>
+> R
+
+## Office Suites & Notebook Interfaces
+
+> Markdown / RMarkdown
+>
+> Jupyter Notebook
+>
+> Microsoft Office
+>
+> Open Office
+
+## Miscellaneous
+
+> Windows
+>
+> Linux
+>
+> Git
+
+------------------------------------------------------------------------
+
+# Statistics
+
+------------------------------------------------------------------------
+
+> Descriptive statistics
+>
+> Inferential statistics :
+>
+> > -   Statistical hypothesis testing
+> >
+> > -   Analyses of variance
+> >
+> >-   Linear models (general & generalized)
+> >
+> >-   Fixed effect, random effect, and mixed effect model
