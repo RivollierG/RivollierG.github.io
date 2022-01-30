@@ -48,11 +48,14 @@
  overflow: visible;
  display: none;
 }
+
+
 </style>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 <!-- Sidebar -->
 <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:17%">
+  
   <h3 class="w3-bar-item">CheatSheet</h3>
         
       <!-- Links in Div -->
@@ -106,6 +109,13 @@
     		<a href="https://scipy.github.io/devdocs/reference/index.html#scipy-api"  target="ifr" class="w3-bar-item w3-button"> Scipy</a>
 
     	</div>
+		<h3 class="w3-bar-item"></h3>
+		<h3 class="w3-bar-item"></h3>
+		<h3 class="w3-bar-item"></h3>
+		<h3 class="w3-bar-item"></h3>
+		<h6 class="w3-bar-item" align="center">Please note that all files belong to their respective creators</h6>
+		
+
 
 
 
@@ -113,10 +123,10 @@
 
 </div>
 <!-- Page Content -->
-<div style="margin-left:17% ;height:100%">
+<div style="margin-left:17%">
+<iframe name="ifr" id="form-iframe" style=" width:100%; height:100vh; border:none; overflow:hidden;" scrolling="no" onload="AdjustIframeHeightOnLoad()"></iframe>
+</div>
 
-<iframe name="ifr" id="form-iframe" style=" width:100%; height:95vh; border:none; overflow:hidden;" scrolling="no" onload="AdjustIframeHeightOnLoad()"></iframe>
-<p style="text-align:center">All files belong to their respective creators</p> 
 <script>
 
 function myDropFunc() {
