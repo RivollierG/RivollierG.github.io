@@ -22,7 +22,9 @@ navbar:
       - text: Othello
         icon: fa-circle
         href: othello.html
-
+    - text: "CheatSheet Collections"
+      icon: fa-cogs
+      href: Cheatsheet/Cheatsheet.html
   right:
     - text: ""
       icon: fa-envelope-o

@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<title>CheatSheet Compilation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  heightStyle: "content";
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.dropdown {
+ position: absolute;
+ background-color: #CCC;
+ overflow: visible;
+ display: none;
+}
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:17%">
+  <h3 class="w3-bar-item">CheatSheet</h3>
+        
+      <!-- Links in Div -->
+      <button class="accordion">
+		Python
+		</button>
+		<div class="panel">
+    		<a href="Python/Python.pdf" target="ifr" class="w3-bar-item w3-button">General</a>
+    		<div class="w3-dropdown-click">
+                <div class="w3-bar-item w3-button" onclick="myDropFunc()">
+                      MatPlotLib
+                </div>
+                <div id="demoDrop" class="w3-dropdown-content w3-white w3-card-4">
+                    <a href="Python/MPL.pdf"  target="ifr" class="w3-bar-item w3-button"> General</a>
+        			<a href="Python/MPLa.pdf"  target="ifr" class="w3-bar-item w3-button"> Basics</a>
+        			<a href="Python/MPLb.pdf"  target="ifr" class="w3-bar-item w3-button"> Advanced</a>
+        			<a href="Python/MPL-tips.pdf"  target="ifr" class="w3-bar-item w3-button"> Tips</a>>
+                </div>
+            </div>
+    		<a href="Python/Pandas.pdf" target="ifr" class="w3-bar-item w3-button">Pandas</a>
+    		<a href="Python/Numpy.pdf"  target="ifr" class="w3-bar-item w3-button">Numpy</a>
+    		<a href="Python/NumpyDS.pdf"  target="ifr" class="w3-bar-item w3-button">Numpy for Data Science</a>
+    		<a href="Python/REpython.pdf"  target="ifr" class="w3-bar-item w3-button"> RegEx for Python</a>
+    	</div>
+    	<button class="accordion">
+		R
+		</button>
+		<div class="panel">
+    		<a href="R/Rbase.pdf" target="ifr" class="w3-bar-item w3-button">Basics</a>
+    		<a href="R/Radvanced.pdf" target="ifr" class="w3-bar-item w3-button">Advanced</a>
+		  	<a href="R/Rstudio.pdf"  target="ifr" class="w3-bar-item w3-button">Rstudio IDE</a>
+    		<a href="R/Rggplot.pdf"  target="ifr" class="w3-bar-item w3-button">GGplot</a>
+    		<a href="R/reticulate.pdf"  target="ifr" class="w3-bar-item w3-button"> Reticulate (Python in R)</a>
+    		<a href="R/Rmd.pdf"  target="ifr" class="w3-bar-item w3-button">Rmd</a>
+    		<a href="R/Rstrings.pdf"  target="ifr" class="w3-bar-item w3-button">Strings manipulation</a>
+    		<a href="R/Rpurrr.pdf"  target="ifr" class="w3-bar-item w3-button">Purrr</a>
+    	</div>
+		<a href="SQL.pdf" target="ifr" class="w3-bar-item w3-button">SQL</a> 
+		<a href="Git.pdf" target="ifr" class="w3-bar-item w3-button">Git</a>
+		<a href="Linux.pdf" target="ifr" class="w3-bar-item w3-button">Linux / Bash</a>
+
+
+
+
+</div>
+<!-- Page Content -->
+<div style="margin-left:17% ;height:100%">
+
+<iframe name="ifr" id="form-iframe" style=" width:100%; height:95vh; border:none; overflow:hidden;" scrolling="no" onload="AdjustIframeHeightOnLoad()"></iframe>
+<p style="text-align:center">All files belong to their respective creators</p> 
+<script>
+
+function myDropFunc() {
+  var x = document.getElementById("demoDrop");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+
+</script>
+  </body>
+  
+</html>

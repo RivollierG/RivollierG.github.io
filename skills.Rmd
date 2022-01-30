@@ -3,6 +3,18 @@ title: "Skills"
 ---
 
 *Still WIP*
+ 
+------------------------------------------------------------------------
+
+# Skills being acquired
+
+------------------------------------------------------------------------
+
+> ## Machine Learning
+>
+> ## Data Base
+>
+> ## and so [much more](https://le-campus-numerique.fr/wp-content/uploads/2021/10/Programme-Formation-Data-2023.pdf)
 
 ------------------------------------------------------------------------
 
@@ -10,29 +22,29 @@ title: "Skills"
 
 ------------------------------------------------------------------------
 
-## Programming Languages
-
-> Python
+> ## Programming Languages
 >
-> R
-
-## Office Suites & Notebook Interfaces
-
-> Markdown / RMarkdown
+> > ### Python
+> >
+> > ### R
 >
-> Jupyter Notebook
+> ## Office Suites & Notebook Interfaces
 >
-> Microsoft Office
+> > ### Markdown / RMarkdown
+> >
+> > ### Jupyter Notebook
+> >
+> > ### Microsoft Office
+> >
+> > ### Open Office
 >
-> Open Office
-
-## Miscellaneous
-
-> Windows
+> ## Miscellaneous
 >
-> Linux
->
-> Git
+> > ### Windows OS
+> >
+> > ### Linux OS
+> >
+> > ### Git
 
 ------------------------------------------------------------------------
 
@@ -40,14 +52,18 @@ title: "Skills"
 
 ------------------------------------------------------------------------
 
-> Descriptive statistics
+> ## Descriptive statistics
 >
-> Inferential statistics :
+> ## Data Visualization
 >
-> > -   Statistical hypothesis testing
+> ## Inferential statistics
+>
+> > ### Statistical hypothesis testing
 > >
-> > -   Analyses of variance
+> > ### Analyses of variance (parametric & non parametric)
 > >
-> >-   Linear models (general & generalized)
+> > ### Linear models (general & generalized)
 > >
-> >-   Fixed effect, random effect, and mixed effect model
+> > ### Fixed effect, random effect, and mixed effect model
+
+------------------------------------------------------------------------
