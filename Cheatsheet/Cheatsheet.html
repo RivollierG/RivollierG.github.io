@@ -13,7 +13,8 @@
 html,body{
 	font-family:Verdana,sans-serif;
 	font-size:15px;
-	line-height:1.5}
+	line-height:1.5;
+	margin: 0}
 html{overflow-x:hidden}
 
 h1{font-size:36px}
@@ -141,8 +142,8 @@ hr{
 				<a href="https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf"  target="ifr" class="w3-bar-item w3-button">Numpy</a>
 				<a href="https://s3.amazonaws.com/dq-blog-files/numpy-cheat-sheet.pdf"  target="ifr" class="w3-bar-item w3-button">Numpy for Data Science</a>
 				
-				<div class="w3-dropdown-click">
-					<div class="w3-bar-item w3-button" onclick="myDropFunc()">
+			
+					<div class="w3-bar-item w3-button w3-dropdown-click">
 						  MatPlotLib
 					</div>
 					<div id="demoDrop" class="w3-dropdown-content w3-white w3-card-4">
@@ -151,7 +152,7 @@ hr{
 						<a href="https://matplotlib.org/cheatsheets/handout-intermediate.pdf"  target="ifr" class="w3-bar-item w3-button"> Advanced</a>
 						<a href="https://matplotlib.org/cheatsheets/handout-tips.pdf"  target="ifr" class="w3-bar-item w3-button"> Tips</a>
 					</div>
-				</div>
+				
 
 				<a href="https://www.dataquest.io/wp-content/uploads/2019/03/python-regular-expressions-cheat-sheet.pdf"  target="ifr" class="w3-bar-item w3-button"> RegEx for Python</a>
 				<a href="https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf"  target="ifr" class="w3-bar-item w3-button"> Scikit Learn</a>
@@ -169,9 +170,10 @@ hr{
 			R
 			</button>
 			<div class="panel">
+				
 				<a href="https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf" target="ifr" class="w3-bar-item w3-button">Basics</a>
 				<a href= "http://docs.google.com/gview?url=https://www.rstudio.com/wp-content/uploads/2016/02/advancedR.pdf&embedded=true" target="ifr" class="w3-bar-item w3-button">Advanced</a>
-			<a href="http://docs.google.com/gview?url=https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide.pdf&embedded=true" target="ifr" class="w3-bar-item w3-button">Rstudio IDE</a>
+		    	<a href="http://docs.google.com/gview?url=https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide.pdf&embedded=true" target="ifr" class="w3-bar-item w3-button">Rstudio IDE</a>
 				<a href="http://docs.google.com/gview?url=https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf&embedded=true"  target="ifr" class="w3-bar-item w3-button">GGplot</a>
 				<a href="http://docs.google.com/gview?url=https://raw.githubusercontent.com/rstudio/cheatsheets/main/reticulate.pdf&embedded=true"target="ifr" class="w3-bar-item w3-button"> Reticulate (Python in R)</a>
 				<a href="http://docs.google.com/gview?url=https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf&embedded=true"   target="ifr" class="w3-bar-item w3-button">Rmd</a>
@@ -189,6 +191,7 @@ hr{
 			Python
 			</button>
 			<div class="panel">
+
 				<a href="https://pandas.pydata.org/docs/reference/index.html#api"  target="ifr" class="w3-bar-item w3-button">Pandas</a>
 				<a href="https://matplotlib.org/stable/api/index.html" target="ifr" class="w3-bar-item w3-button">MatPlotLib</a>
 				<a href="https://numpy.org/doc/stable/reference/index.html#reference" target="ifr" class="w3-bar-item w3-button">Numpy</a>
@@ -220,21 +223,23 @@ hr{
 <!-- Script -->
 	  <script>
 
-		function myDropFunc() {
-		  var x = document.getElementById("demoDrop");
-		  if (x.className.indexOf("w3-show") == -1) 
-			{
-			x.className += " w3-show";
-			x.previousElementSibling.className += " w3-green";
-			}
-		  else 
-			{ 
-			x.className = x.className.replace(" w3-show", "");
-			x.previousElementSibling.className = 
-			x.previousElementSibling.className.replace(" w3-green", "");
-			}
-		  }
+		  
+		var dropdown = document.getElementsByClassName("w3-dropdown-click");
+		var i;
 
+		for (i = 0; i < dropdown.length; i++) {
+		  dropdown[i].addEventListener("click", function() {
+		  this.classList.toggle("active");
+		  var dropdownContent = this.nextElementSibling;
+		  if (dropdownContent.style.display === "block") {
+		  dropdownContent.style.display = "none";
+		  } else {
+		  dropdownContent.style.display = "block";
+		  }
+		  });
+		}
+		
+		
 		var acc = document.getElementsByClassName("accordion");
 		var i;
 
