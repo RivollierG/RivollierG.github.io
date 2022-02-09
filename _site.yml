@@ -12,19 +12,19 @@ navbar:
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
-    - text: 'Portfolio'
-      icon: fa-graduation-cap
-      menu:
-      - text: Trees in Grenoble
-        icon: fa-tree
-        desc : Some analyses from Grenoble's trees database
-        href: tree.html
-      - text: Othello
-        icon: fa-circle
-        href: othello.html
+#    - text: 'Portfolio'
+#      icon: fa-graduation-cap
+#      menu:
+#    - text: Trees in Grenoble
+#        icon: fa-tree
+#        desc : Some analyses from Grenoble's trees database
+#        href: tree.html
+#      - text: Othello
+#        icon: fa-circle
+#        href: othello.html
     - text: "CheatSheet Collections"
       icon: fa-cogs
-      href: Cheatsheet/Cheatsheet.html
+      href: https://htmlpreview.github.io/?https://github.com/RivollierG/Cheatsheet/blob/main/Cheatsheet.html
   right:
     - text: ""
       icon: fa-envelope-o
