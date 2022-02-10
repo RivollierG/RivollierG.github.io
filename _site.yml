@@ -24,7 +24,7 @@ navbar:
 #        href: othello.html
     - text: "CheatSheet Collections"
       icon: fa-cogs
-      href: https://htmlpreview.github.io/?https://github.com/RivollierG/Cheatsheet/blob/main/Cheatsheet.html
+      href: Cheatsheet/Cheatsheet.html
   right:
     - text: ""
       icon: fa-envelope-o
