@@ -5,8 +5,6 @@ title: "About me"
 Hello,\
 I'm Guillaume Rivollier.\
 Welcome on my page.\
-This website is still in construction.\
-Therefore don't worry if you are not able to find lot of info about me.\
-You can find me on [LinkedIn](https://www.linkedin.com/in/guillaume-rivollier/) and [Twitter](https://twitter.com/g_rivollier).
+You can find me on [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/guillaume-rivollier) and [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/g_rivollier).
 
 ![](files/Rivollier_G_photo.jpg){width="268"}
